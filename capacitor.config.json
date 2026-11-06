@@ -1,0 +1,6 @@
+{
+  "appId": "com.miestudio.aventurasubmarina",
+  "appName": "Aventura Submarina",
+  "webDir": ".",
+  "bundledWebRuntime": false
+}

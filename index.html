@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#063c68"><meta name="description" content="Aventura Submarina: un juego de plataformas pixel art bajo el mar.">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg">
+<title>Aventura Submarina</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app">
+<header><div><small>MI ESTUDIO PRESENTA</small><h1>AVENTURA SUBMARINA</h1></div><div class="stats"><span>💎 <b id="score">0</b></span><span>❤️ <b id="hearts">3</b></span></div></header>
+<section class="game-frame"><canvas id="game" width="800" height="450" aria-label="Juego Aventura Submarina"></canvas>
+<div id="screen" class="screen"><div class="panel"><div class="logo">🌊</div><h2 id="screenTitle">¡A explorar!</h2><p id="screenText">Juntá perlas, esquivá criaturas marinas y encontrá el cofre del tesoro.</p><button id="play">JUGAR</button></div></div></section>
+<nav class="controls" aria-label="Controles"><div><button id="left" aria-label="Mover a la izquierda">◀</button><button id="right" aria-label="Mover a la derecha">▶</button></div><button id="jump" aria-label="Saltar">SALTAR ⬆</button></nav>
+<footer>Un juego original de <b>Mi Estudio</b> · Mundo 1: Arrecife Azul</footer>
+</main><script src="game.js"></script>
+</body></html>
